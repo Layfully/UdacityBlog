@@ -1,0 +1,15 @@
+.article-container {
+    grid-template-areas:
+    "header header header header header header header header header header header header"
+    "main main main main main main main main main main main main"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+.main-article {
+    padding: 0;
+    max-width: 2000px;
+}
+
+.content {
+    padding: 0 15%;
+}

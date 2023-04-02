@@ -1,0 +1,20 @@
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 48px;
+}
+
+h3 {
+    font-size: 1.125rem;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+blockquote {
+    border-left: 4px solid #1A3852;
+    padding-left: 5px;
+}

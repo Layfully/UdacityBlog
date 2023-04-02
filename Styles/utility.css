@@ -1,0 +1,31 @@
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color: greenyellow;
+}
+
+.centered {
+    text-align: center;
+}
+
+.text-normal {
+    font-weight: 400;
+}
+
+.py-10 {
+    padding: 10px 0;
+}

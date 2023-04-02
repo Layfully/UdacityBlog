@@ -1,0 +1,125 @@
+.img {
+    max-width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.nav-item {
+    display: inline-block;
+    font-size: 1.05rem;
+    margin: 0 10px;
+}
+
+.nav-item>a {
+    text-decoration: none;
+    color: #1A3852;
+    font-weight: bolder;
+    transition: color ease 0.5s;
+}
+
+.nav-item>a:hover {
+    color: #1482dc;
+    border-bottom: 1px solid #1A3852;
+}
+
+.post-wrapper {
+    transition: all 500ms ease;
+    display: block;
+    -webkit-box-shadow: 8px 8px 12px -10px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 12px -10px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 12px -10px rgba(66, 68, 90, 1);
+    border-radius: 15px;
+    border: 1px solid rgba(164, 158, 157, 0.2);
+    margin: 20px 0;
+    text-decoration: none;
+    color: #1A3852;
+    overflow: hidden;
+    border: none;
+}
+
+.post-wrapper:hover {
+    -webkit-box-shadow: 8px 8px 12px -10px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 12px -10px rgba(66, 68, 90, 1);
+    box-shadow: 2px 2px 12px 1px rgba(66, 68, 90, 1);
+}
+
+.post-content {
+    padding: 24px 38px 12px 38px;
+}
+
+.post-description {
+    padding: 20px 0px;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 16px 12px 38px;
+}
+
+.post-tag {
+    font-size: 0.75rem;
+    border-radius: 5px;
+    background: #1A3852;
+    color: white;
+    padding: 3px 12px;
+    margin: 0 5px;
+    border: none;
+    transition: all 500ms ease;
+}
+
+.post-img {
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.post-tag:hover {
+    background: orange;
+    -webkit-box-shadow: 8px 8px 12px -10px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 12px -10px rgba(66, 68, 90, 1);
+    box-shadow: 2px 2px 12px 1px rgba(66, 68, 90, 1);
+}
+
+.socials {
+    display: flex;
+}
+
+.socials-link {
+    margin-right: 30px;
+    display: block;
+    color: #1A3852;
+    transition: color 500ms ease;
+    width: 5px;
+}
+
+.socials-link:hover {
+    color: orange;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author-info {
+    display: block;
+    margin: 5px 0;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+div:has(button:hover) {
+    background: red !important;
+}

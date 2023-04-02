@@ -1,58 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>My Blog - My First Blog Post</title>
-  <meta name="description" content="An article about web development using HTML5.">
-  <meta name="keywords" content="web development, HTML5, CSS3">
-  <meta name="author" content="Adrian Gaborek">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>My Blog</title>
+    <meta name="description" content="A blog made for udacity nanodegree.">
+    <meta name="keywords" content="web development, programming, technology, HTML5, CSS3">
+    <meta name="author" content="Adrian Gaborek">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
 </head>
-<body>
-  <header>
-    <h1>My Blog</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <main>
-    <article>
-      <header>
-        <h2>My First Blog Post</h2>
-        <time datetime="2023-03-26">March 26, 2023</time>
-      </header>
-      
-      <section>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci tortor. Vestibulum a turpis semper, sodales elit ac, laoreet neque.</p>
-        <p>Nullam euismod feugiat velit, in consequat magna feugiat id. Nunc dapibus risus sed leo ullamcorper, vel suscipit magna efficitur. Integer finibus metus ac felis bibendum, vel laoreet tortor finibus.</p>
-        
-        <h3>Section Heading</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci tortor. Vestibulum a turpis semper, sodales elit ac, laoreet neque.</p>
-        <p>Nullam euismod feugiat velit, in consequat magna feugiat id. Nunc dapibus risus sed leo ullamcorper, vel suscipit magna efficitur. Integer finibus metus ac felis bibendum, vel laoreet tortor finibus.</p>
-        
-        <figure>
-          <img src="image1.jpg" alt="My first blog post image">
-          <figcaption>My first blog post image caption</figcaption>
-        </figure>
-        
-        <h3>Conclusion</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci tortor. Vestibulum a turpis semper, sodales elit ac, laoreet neque.</p>
-        <p>Nullam euismod feugiat velit, in consequat magna feugiat id. Nunc dapibus risus sed leo ullamcorper, vel suscipit magna efficitur. Integer finibus metus ac felis bibendum, vel laoreet tortor finibus.</p>
-      </section>
-    </article>
-  </main>
-  
-  <aside>
-    <h2>About the Author</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci tortor. Vestibulum a turpis semper, sodales elit ac, laoreet neque.</p>
-  </aside>
-  
-  <footer>
-    <p>&copy; 2023 My Blog. All rights reserved.</p>
-  </footer>
+
+<body class="article-container">
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="Main.html">Home</a></li>
+                <li class="nav-item"><a href="#">About</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-article">
+        <article>
+            <figure>
+                <img class="img" src="./Images/sample.png" alt="My first blog post image">
+                <figcaption class="centered">Description of the image maybe some quote</figcaption>
+            </figure>
+            <div class="content">
+                <header class="py-10">
+                    <h2>My First Blog Post</h2>
+                    <time datetime="2023-03-26">March 26, 2023</time>
+                </header>
+                <h3>Author</h3>
+                <section class="author">
+                    <img src="Images/avatar.png" alt="Avatar" class="avatar">
+                    <div class="author-content">
+                        <span class="author-info">Name: Adrian</span>
+                        <span class="author-info">Title: Mr</span>
+                        <span class="author-info">Current Company: DEVNet</span>
+                        <span class="author-info">Enjoys programming and frontend development</span>
+                    </div>
+                </section>
+                <section class="text-normal py-10">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci tortor. Vestibulum a turpis
+                        semper, sodales elit ac, laoreet neque.</p>
+                    <p class="py-">Nullam euismod feugiat velit, in consequat magna feugiat id. Nunc dapibus risus sed
+                        leo
+                        ullamcorper,
+                        vel suscipit magna efficitur. Integer finibus metus ac felis bibendum, vel laoreet tortor
+                        finibus.
+                    </p>
+
+                    <h3 class="py-10">Section Heading</h3>
+                    <strong class="bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci tortor.
+                        Vestibulum a turpis
+                        semper, sodales elit ac, laoreet neque.</strong>
+                    <em class="italic">Nullam euismod feugiat velit, in consequat magna feugiat id. Nunc dapibus risus
+                        sed leo
+                        ullamcorper,
+                        vel suscipit magna efficitur. Integer finibus metus ac felis bibendum, vel laoreet tortor
+                        finibus.
+                    </em>
+                    <h3 class="py-10 green">Conclusion</h3>
+                    <u>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci tortor. Vestibulum a turpis
+                        semper, sodales elit ac, laoreet neque.</u>
+                    <p class="underline">Nullam euismod feugiat velit, in consequat magna feugiat id. Nunc dapibus risus
+                        sed leo
+                        ullamcorper,
+                        vel suscipit magna efficitur. Integer finibus metus ac felis bibendum, vel laoreet tortor
+                        finibus.
+                    </p>
+                    <blockquote
+                        class="orange"
+                        cite="https://www.goodreads.com/quotes/7659667-to-say-that-nothing-is-true-is-to-realize-that">
+                        I'm sick of following my dreams, man. I'm just going to ask where they're going and hook up with ’em later.
+                    </blockquote>
+                    <nav class="socials py-10">
+                        <a class="socials-link" href="https://facebook.com"><i class="fi-cnsuxx-facebook-circle"></i></a>
+                        <a class="socials-link" href="https://twitter.com"><i class="fi-cnsuxx-twitter-solid"></i></a>
+                        <a class="socials-link" href="https://instagram.com"><i class="fi-cnsuxx-instagram"></i></a>
+                    </nav>
+                </section>
+            </div>
+        </article>
+    </main>
+    <footer class="footer centered">
+        <p>&copy; 2023 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
